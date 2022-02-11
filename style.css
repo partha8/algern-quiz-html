@@ -85,7 +85,7 @@ body {
   margin-left: auto;
   width: 40vw;
   max-inline-size: none;
-  animation: imgHover 3s;
+  animation: imgHover 2s linear;
   animation-iteration-count: infinite;
 }
 
