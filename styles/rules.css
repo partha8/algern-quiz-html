@@ -7,7 +7,7 @@ body {
 }
 
 .rules-container {
-  margin:2rem auto;
+  margin: 2rem auto;
   height: 60vh;
   display: flex;
   flex-direction: column;
@@ -21,20 +21,14 @@ body {
   padding: 1rem;
 }
 
-@media(max-width:800px){
-    .rules{
-        width: 80vw;
-    }
-}
-
 .list-rules {
   margin: 10px 0;
   font-size: 1.2rem;
 }
 
-.list-rules li{
-    list-style-type: disc;
-    margin: 0 1rem;
+.list-rules li {
+  list-style-type: disc;
+  margin: 0 1rem;
 }
 
 .btn-primary-solid {
@@ -48,4 +42,10 @@ body {
 
 .btn-primary-solid:active {
   background: var(--primary-color);
+}
+
+@media (max-width: 800px) {
+  .rules {
+    width: 80vw;
+  }
 }
