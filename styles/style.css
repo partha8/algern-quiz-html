@@ -5,6 +5,8 @@
 }
 :root {
   --primary-color: #feded4;
+  --primary-color-a5: rgba(254, 222, 212, 0.5);
+
   --secondary-color: #fdfdfd;
   --font-color-light: var(--clr-grey-10);
   --font-color-dark: var(--clr-grey-900);
