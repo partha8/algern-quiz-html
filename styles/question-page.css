@@ -20,6 +20,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2rem 1rem;
 }
 
 .question-img,
@@ -29,7 +30,7 @@ body {
 }
 
 .mcq {
-  margin-top: 1rem;
+  margin: 1rem;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
