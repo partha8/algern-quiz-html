@@ -1,20 +1,16 @@
-body {
-  height: 100vh;
-}
-
 .header {
   background: var(--primary-color);
 }
 
 .question-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   max-width: var(--max-width);
   gap: 1rem;
   margin: 2rem auto;
 }
 
-.mcq-container {
+.options-container {
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -24,12 +20,12 @@ body {
 }
 
 .question-img,
-.mcq-container {
+.options-container {
   box-shadow: var(--dark-shadow);
   border-radius: 10px;
 }
 
-.mcq {
+.options {
   margin: 1rem;
   width: 100%;
   display: grid;
@@ -49,4 +45,11 @@ body {
 .option:active,
 .option:focus {
   background: var(--primary-color);
+}
+
+@media screen and (max-width: 800px) {
+  .question-img {
+    margin: auto;
+    max-width: 25rem;
+  }
 }
