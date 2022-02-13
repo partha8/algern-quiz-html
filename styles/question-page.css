@@ -1,4 +1,3 @@
-
 .header {
   background: var(--primary-color);
 }
@@ -11,7 +10,7 @@
   margin: 2rem auto;
 }
 
-.mcq-container {
+.options-container {
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -21,12 +20,12 @@
 }
 
 .question-img,
-.mcq-container {
+.options-container {
   box-shadow: var(--dark-shadow);
   border-radius: 10px;
 }
 
-.mcq {
+.options {
   margin: 1rem;
   width: 100%;
   display: grid;
