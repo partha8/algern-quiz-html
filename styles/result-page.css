@@ -1,0 +1,31 @@
+.question-container {
+  grid-auto-rows: 400px;
+}
+
+.question-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.option {
+  cursor: initial;
+}
+
+.option:active,
+.option:focus {
+  background-color: var(--clr-grey-30);
+}
+
+.correct {
+  background: var(--clr-green-tint1);
+}
+
+.wrong {
+  background: var(--clr-red-tint1);
+}
+
+@media screen and (max-width: 800px) {
+  .question-container {
+    grid-auto-rows: auto;
+  }
+}
