@@ -4,6 +4,7 @@
 
 - [Link](#link)
 - [Demo](#demo)
+- [Pages](#pages)
 - [Connect With Me](#connect-with-me)
 - [Thanks](#thanks)
 
@@ -14,6 +15,13 @@ https://algern-quiz.netlify.app/
 ## Demo
 
 ![Quiz App](https://github.com/partha8/algern-quiz/blob/dev/assets/quizapp.gif)
+
+## Pages
+
+- [Home Page](https://algern-quiz.netlify.app/)
+- [Rules Page](https://algern-quiz.netlify.app/components/rules.html)
+- [Question Page](https://algern-quiz.netlify.app/components/question-page.html)
+- [Result Page](https://algern-quiz.netlify.app/components/result-page.html)
 
 
 ## 👨‍💻 Connect with me
